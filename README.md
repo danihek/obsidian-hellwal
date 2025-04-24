@@ -1,5 +1,7 @@
 # obsidian-hellwal
 
+![20250424_17h22m48s_grim](https://github.com/user-attachments/assets/7578be78-4b90-4f50-a9f9-ed099aa6b833)
+
 ## Hellwal
 
 Setup hellwal according to README here: https://github.com/danihek/hellwal
