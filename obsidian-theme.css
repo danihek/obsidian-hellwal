@@ -1,90 +1,84 @@
 :root {
-    --dark0-hard_x:     17, 81, 115; /* #050d35 */
+    --dark0-hard_x:     %%color8.rgb%%;
     --dark0-hard:       rgb(var(--dark0-hard_x));
-    --dark0_x:          4, 19, 27; /* #01030c */
+    --dark0_x:          %%color0.rgb%%;
     --dark0:            rgb(var(--dark0_x));
-    --dark0-soft_x:     217, 53, 121; /* #325fb7 */
+    --dark0-soft_x:     %%color9.rgb%%;
     --dark0-soft:       rgb(var(--dark0-soft_x));
-    --dark1_x:          174, 43, 97; /* #284c93 */
+    --dark1_x:          %%color1.rgb%%;
     --dark1:            rgb(var(--dark1_x));
-    --dark2_x:          187, 94, 46; /* #28558f */
+    --dark2_x:          %%color2.rgb%%;
     --dark2:            rgb(var(--dark2_x));
-    --dark3_x:          233, 117, 57; /* #326ab2 */
+    --dark3_x:          %%color10.rgb%%;
     --dark3:            rgb(var(--dark3_x));
-    --dark4_x:          126, 108, 218; /* #31598d */
+    --dark4_x:          %%color3.rgb%%;
     --dark4:            rgb(var(--dark4_x));
-    --gray_x:           255, 249, 207; /* #b1e8ff */
+    --gray_x:           %%color7.rgb%%;
     --gray:             rgb(var(--gray_x));
 
-    --light0-hard_x:    255, 255, 255; /* #edffff */
+    --light0-hard_x:    %%color15.rgb%%;
     --light0-hard:      rgb(var(--light0-hard_x));
-    --light0_x:         125, 226, 255; /* #87b0fc */
+    --light0_x:         %%color14.rgb%%;
     --light0:           rgb(var(--light0_x));
-    --light0-soft_x:    121, 223, 255; /* #7bb1da */
+    --light0-soft_x:    %%color13.rgb%%;
     --light0-soft:      rgb(var(--light0-soft_x));
-    --light1_x:         232, 130, 255; /* #5773ba */
+    --light1_x:         %%color12.rgb%%;
     --light1:           rgb(var(--light1_x));
-    --light2_x:         157, 135, 255; /* #3d6fb0 */
+    --light2_x:         %%color11.rgb%%;
     --light2:           rgb(var(--light2_x));
-    --light3_x:         97, 179, 215; /* #638eaf */
+    --light3_x:         %%color5.rgb%%;
     --light3:           rgb(var(--light3_x));
-    --light4_x:         100, 181, 216; /* #6c8dca */
+    --light4_x:         %%color6.rgb%%;
     --light4:           rgb(var(--light4_x));
 
-    --bright-red_x:     255, 249, 207; /* #b1e8ff */
+    --bright-red_x:     %%color7.rgb%%;
     --bright-red:       rgb(var(--bright-red_x));
-    --bright-green_x:   125, 226, 255; /* #87b0fc */
+    --bright-green_x:   %%color14.rgb%%;
     --bright-green:     rgb(var(--bright-green_x));
-    --bright-yellow_x:  121, 223, 255; /* #7bb1da */
+    --bright-yellow_x:  %%color13.rgb%%;
     --bright-yellow:    rgb(var(--bright-yellow_x));
-    --bright-blue_x:    232, 130, 255; /* #5773ba */
+    --bright-blue_x:    %%color12.rgb%%;
     --bright-blue:      rgb(var(--bright-blue_x));
-    --bright-purple_x:  157, 135, 255; /* #3d6fb0 */
+    --bright-purple_x:  %%color11.rgb%%;
     --bright-purple:    rgb(var(--bright-purple_x));
-    --bright-aqua_x:    233, 117, 57; /* #326ab2 */
+    --bright-aqua_x:    %%color10.rgb%%;
     --bright-aqua:      rgb(var(--bright-aqua_x));
-    --bright-orange_x:  217, 53, 121; /* #325fb7 */
+    --bright-orange_x:  %%color9.rgb%%;
     --bright-orange:    rgb(var(--bright-orange_x));
 
-    --neutral-red_x:    17, 81, 115; /* #050d35 */
+    --neutral-red_x:    %%color8.rgb%%;
     --neutral-red:      rgb(var(--neutral-red_x));
-    --neutral-green_x:  174, 43, 97; /* #284c93 */
+    --neutral-green_x:  %%color1.rgb%%;
     --neutral-green:    rgb(var(--neutral-green_x));
-    --neutral-yellow_x: 187, 94, 46; /* #28558f */
+    --neutral-yellow_x: %%color2.rgb%%;
     --neutral-yellow:   rgb(var(--neutral-yellow_x));
-    --neutral-blue_x:   126, 108, 218; /* #31598d */
+    --neutral-blue_x:   %%color3.rgb%%;
     --neutral-blue:     rgb(var(--neutral-blue_x));
-    --neutral-purple_x: 186, 104, 217; /* #465c95 */
+    --neutral-purple_x: %%color4.rgb%%;
     --neutral-purple:   rgb(var(--neutral-purple_x));
-    --neutral-aqua_x:   97, 179, 215; /* #638eaf */
+    --neutral-aqua_x:   %%color5.rgb%%;
     --neutral-aqua:     rgb(var(--neutral-aqua_x));
-    --neutral-orange_x: 100, 181, 216; /* #6c8dca */
+    --neutral-orange_x: %%color6.rgb%%;
     --neutral-orange:   rgb(var(--neutral-orange_x));
 
-    --faded-red_x:      255, 249, 207; /* #b1e8ff */
+    --faded-red_x:      %%color7.rgb%%;
     --faded-red:        rgb(var(--faded-red_x));
-    --faded-green_x:    255, 255, 255; /* #edffff */
+    --faded-green_x:    %%color15.rgb%%;
     --faded-green:      rgb(var(--faded-green_x));
-    --faded-yellow_x:   125, 226, 255; /* #87b0fc */
+    --faded-yellow_x:   %%color14.rgb%%;
     --faded-yellow:     rgb(var(--faded-yellow_x));
-    --faded-blue_x:     121, 223, 255; /* #7bb1da */
+    --faded-blue_x:     %%color13.rgb%%;
     --faded-blue:       rgb(var(--faded-blue_x));
-    --faded-purple_x:   232, 130, 255; /* #5773ba */
+    --faded-purple_x:   %%color12.rgb%%;
     --faded-purple:     rgb(var(--faded-purple_x));
-    --faded-aqua_x:     157, 135, 255; /* #3d6fb0 */
+    --faded-aqua_x:     %%color11.rgb%%;
     --faded-aqua:       rgb(var(--faded-aqua_x));
-    --faded-orange_x:   233, 117, 57; /* #326ab2 */
+    --faded-orange_x:   %%color10.rgb%%;
     --faded-orange:     rgb(var(--faded-orange_x));
 }
 
 body {
-    --accent-h: 220; /* Adjusted to blue tones */
-    --accent-s: 85; /* #326ab2 */
-    --faded-orange:     rgb(var(--faded-orange_x));
-}
-
-body {
-    --accent-h: 220; /* Adjusted to blue tones */
+    --accent-h: 220;
     --accent-s: 85%;
     --accent-l: 45%;
 
